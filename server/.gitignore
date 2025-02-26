@@ -1,0 +1,71 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+husky-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Build files
+dist/
+out/
+build/
+.cache/
+.next/
+coverage/
+*.min.*
+*.map
+*.gz
+*.br
+
+# Python related
+__pycache__/
+*.py[cod]
+*.swp
+.venv/
+venv/
+
+# Database & runtime files
+*.sqlite3
+*.db
+*.db-journal
+*.pid
+
+# Generated files
+*.bak
+*.tmp
+*.log
+*.lock
+*.tgz
+*.zip
+
+# Miscellaneous
+node_repl_history
+pids/
+*.seed
+*.seed.js
+*.env.example
